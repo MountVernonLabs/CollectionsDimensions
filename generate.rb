@@ -1,6 +1,7 @@
 require 'dimension_drawer'
 require 'fileutils'
 require 'optparse'
+require 'clipboard'
 
 options = {:height => nil, :width => nil, :depth => nil}
 
@@ -46,3 +47,5 @@ print "_____________________\n\n"
 print svg
 print "\n"
 print "_____________________\n\n"
+
+Clipboard.copy(svg)

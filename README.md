@@ -2,15 +2,13 @@
 Very simple command line ruby script to generate a dimensions SVG file for a collections object
 
 ## Usage
-Install the dimensions_drawer gem
-
-For Linux:
-
-```bundle install dimension_drawer```
+Install the dimensions_drawer and clipboard gem
 
 For OSX:
 
 ```gem install dimension_drawer```
+
+```gem install clipboard```
 
 Then to generate your assets run the following command:
 
@@ -18,7 +16,7 @@ Then to generate your assets run the following command:
 
 Where 15.2 is the values of width, height and depth for your object (in centimeters)
 
-The script will output the SVG code to your terminal screen and also save the results in the file dimensions.svg
+The script will output the SVG code to your terminal screen, it copies the code automatically to your operating system's clipboard and also saves the results in the file dimensions.svg
 
 
 ## Many Thanks
